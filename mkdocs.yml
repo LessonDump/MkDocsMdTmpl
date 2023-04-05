@@ -1,0 +1,96 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Шаблон проекта документации на базе MkDocs
+
+theme:
+  name: material
+  language: ru
+  logo: images/database.svg
+
+  icon:
+    repo: fontawesome/brands/github
+
+  favicon: images/database.svg
+
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: День
+      primary: indigo
+      accent: deep orange
+
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Ночь
+      primary: indigo
+      accent: deep orange
+
+  font:
+    text: Roboto Flex
+    code: Source Code Pro
+
+  features:
+    - content.code.copy
+    - content.code.annotate
+
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+
+    - toc.follow
+
+    - search.suggest
+    - search.highlight
+
+    - header.autohide
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+plugins:
+  - tags
+  - offline
+  - search:
+      lang:
+        - ru
+        - en
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OldCodersClub
+      name: OldCodersClub
+
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/oldcodersclub
+      name: Клуб дедов-программистов
+
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@oldcoders/featured
+      name: Клуб дедов-программистов
+
+copyright: Copyright &copy; 2021 - 2023 OldCodersClub
+
+repo_name: LessonDump - MkDocsMdTmpl
+repo_url: https://github.com/LessonDump/MkDocsMdTmpl
+
+nav:
+  - 'Главная':
+    - index.md
+    - about.md
+    - community.md
+    - license.md
+
+  - 'Элементы':
+    - elements/reference.md
+    - elements/code_blocks.md
