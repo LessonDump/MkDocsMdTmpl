@@ -44,3 +44,8 @@ WEIGHT_CLASS Correlation
     massa, nec semper lorem quam in massa.
 
 [Подробнее](elements/admonitions.md)
+
+### Кнопки
+
+[Подробнее](elements/buttons.md){ .md-button }
+

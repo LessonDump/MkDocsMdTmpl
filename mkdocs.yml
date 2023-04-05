@@ -56,8 +56,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - admonition
   - pymdownx.details
+  - admonition
+  - attr_list
 
 plugins:
   - tags
@@ -97,3 +98,4 @@ nav:
     - elements/reference.md
     - elements/admonitions.md
     - elements/code_blocks.md
+    - elements/buttons.md
