@@ -56,6 +56,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
 
 plugins:
   - tags
@@ -93,4 +95,5 @@ nav:
 
   - 'Элементы':
     - elements/reference.md
+    - elements/admonitions.md
     - elements/code_blocks.md
