@@ -53,12 +53,25 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+
   - pymdownx.details
   - admonition
+  - tables
   - attr_list
+
 
 plugins:
   - tags
@@ -99,3 +112,5 @@ nav:
     - elements/admonitions.md
     - elements/code_blocks.md
     - elements/buttons.md
+    - elements/data-tables.md
+    - elements/diagrams.md

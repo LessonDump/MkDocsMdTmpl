@@ -49,3 +49,25 @@ WEIGHT_CLASS Correlation
 
 [Подробнее](elements/buttons.md){ .md-button }
 
+### Таблицы данных
+
+| Method   | Description                          |
+|----------|--------------------------------------|
+| `GET`    | :material-check:     Fetch resource  |
+| `PUT`    | :material-check-all: Update resource |
+| `DELETE` | :material-close:     Delete resource |
+
+[Подробнее](elements/data-tables.md)
+
+### Диаграммы
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
+[Подробнее](elements/diagrams.md)
