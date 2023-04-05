@@ -2,7 +2,7 @@
 
 [MkDocs](https://www.mkdocs.org/) Project documentation with Markdown.
 
-### Теги страницы
+## Теги страницы
 
 ``` markdown
 ---
@@ -15,7 +15,7 @@ title: Lorem ipsum dolor sit amet
 
 [Подробнее](elements/reference.md)
 
-### Блоки кода
+## Блоки кода
 
 ``` sql
 SELECT weight_class, CORR(list_price, min_price) "Correlation"
@@ -35,7 +35,7 @@ WEIGHT_CLASS Correlation
 
 [Подробнее](elements/code_blocks.md)
 
-### Предостережения
+## Предостережения
 
 !!! Примечание
 
@@ -45,11 +45,11 @@ WEIGHT_CLASS Correlation
 
 [Подробнее](elements/admonitions.md)
 
-### Кнопки
+## Кнопки
 
 [Подробнее](elements/buttons.md){ .md-button }
 
-### Таблицы данных
+## Таблицы данных
 
 | Method   | Description                          |
 |----------|--------------------------------------|
@@ -59,7 +59,7 @@ WEIGHT_CLASS Correlation
 
 [Подробнее](elements/data-tables.md)
 
-### Диаграммы
+## Диаграммы
 
 ``` mermaid
 graph LR

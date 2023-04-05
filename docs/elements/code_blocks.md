@@ -1,8 +1,8 @@
 # Блоки кода
 
-### [Лексеры для блоков кода](https://pygments.org/docs/lexers/)
+## [Лексеры для блоков кода](https://pygments.org/docs/lexers/)
 
-### Лексера `py`:
+## Лексера `py`:
 
 ``` py
 @dp.message_handler(commands=['start', 'help'])
@@ -11,7 +11,7 @@ async def send_welcome(message: types.Message):
         MESSAGES['welcome'], parse_mode=types.ParseMode.MARKDOWN)
 ```
 
-### Лексера `sql`:
+## Лексера `sql`:
 
 ``` sql
 SELECT weight_class, CORR(list_price, min_price) "Correlation"
@@ -29,7 +29,7 @@ WEIGHT_CLASS Correlation
            5  .999536087
 ```
 
-### Лексера `html`:
+## Лексера `html`:
 
 ``` html
 <!DOCTYPE html>
@@ -42,7 +42,7 @@ WEIGHT_CLASS Correlation
 <title>SQL Helper</title>
 ```
 
-### Лексера `css`:
+## Лексера `css`:
 
 ``` css
 .row {
@@ -66,7 +66,7 @@ WEIGHT_CLASS Correlation
 }
 ```
 
-### Лексера `kotlin`:
+## Лексера `kotlin`:
 
 ``` kotlin
 class MainActivity : AppCompatActivity() {
@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-### Блок кода с заголовком:
+## Блок кода с заголовком:
 
 ``` py title="bubble_sort.py"
 def bubble_sort(items):
@@ -106,7 +106,7 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-### Блок кода с аннотацией:
+## Блок кода с аннотацией:
 
 ``` yaml
 theme:
@@ -117,7 +117,7 @@ theme:
 1. :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be written in Markdown.
 
-### Блок кода с аннотацией, зачищенный (удалён символ комментария):
+## Блок кода с аннотацией, зачищенный (удалён символ комментария):
 
 ``` yaml
 theme:
@@ -127,7 +127,7 @@ theme:
 
 1.  Look ma, less line noise!
 
-### Блок кода с номерами строк:
+## Блок кода с номерами строк:
 
 ``` py linenums="1"
 def bubble_sort(items):
@@ -137,7 +137,7 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-### Блок кода с выделенными строками
+## Блок кода с выделенными строками
 
 ``` py hl_lines="2 3"
 def bubble_sort(items):
@@ -147,6 +147,6 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-### Блок встроенного кода
+## Блок встроенного кода
 
 Функция `#!py range()` используется для генерации последовательности чисел.

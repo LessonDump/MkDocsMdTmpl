@@ -1,6 +1,6 @@
 # Таблицы данных
 
-### Таблица
+## Таблица
 
 | Method   | Description                          |
 |----------|--------------------------------------|
@@ -8,9 +8,9 @@
 | `PUT`    | :material-check-all: Update resource |
 | `DELETE` | :material-close:     Delete resource |
 
-### Выравнивание колонок
+## Выравнивание колонок
 
-#### Левый
+### Левый
 
 | Method   | Description                          |
 |:---------|:-------------------------------------|
@@ -18,7 +18,7 @@
 | `PUT`    | :material-check-all: Update resource |
 | `DELETE` | :material-close:     Delete resource |
 
-#### Центр
+### Центр
 
 |  Method  |             Description              |
 |:--------:|:------------------------------------:|
@@ -26,7 +26,7 @@
 |  `PUT`   | :material-check-all: Update resource |
 | `DELETE` | :material-close:     Delete resource |
 
-#### Правый
+### Правый
 
 |   Method |                          Description |
 |---------:|-------------------------------------:|

@@ -1,6 +1,6 @@
 # Предостережения
 
-### Примечание
+## Примечание
 
 !!! Примечание
 
@@ -8,7 +8,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-### Примечание с произвольным заголовком
+## Примечание с произвольным заголовком
 
 !!! note "Phasellus posuere in sem ut cursus"
 
@@ -16,7 +16,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-### Примечание без заголовка
+## Примечание без заголовка
 
 !!! note ""
 
@@ -24,7 +24,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-### Раскрывающееся примечание
+## Раскрывающееся примечание
 
 ??? Примечание
 
@@ -32,7 +32,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-### Раскрытое примечание
+## Раскрытое примечание
 
 ???+ note
 
@@ -40,7 +40,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-### Инлайн блоки
+## Инлайн блоки
 
 !!! info inline end "Lorem ipsum"
 
@@ -59,9 +59,9 @@
 
 Важно : примечания, использующие `inline` модификаторы, должны быть объявлены до блока контента, рядом с которым вы хотите их разместить. Если для отображения предупреждения рядом с блоком недостаточно места, предупреждение будет растягиваться на всю ширину области просмотра, например, на мобильных экранах просмотра.
 
-### Поддерживаемые типы
+## Поддерживаемые типы
 
-#### `note`
+### `note`
 
 !!! note "Примечание"
 
@@ -69,7 +69,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `abstract`
+### `abstract`
 
 !!! abstract "Абстрактный"
 
@@ -77,7 +77,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `info`
+### `info`
 
 !!! info "Информация"
 
@@ -85,7 +85,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `tip`
+### `tip`
 
 !!! tip "Совет"
 
@@ -93,7 +93,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `success`
+### `success`
 
 !!! success "Отлично"
 
@@ -101,7 +101,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `question`
+### `question`
 
 !!! question "Вопрос"
 
@@ -109,7 +109,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `warning`
+### `warning`
 
 !!! warning "Предупреждение"
 
@@ -117,7 +117,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `failure`
+### `failure`
 
 !!! failure "Сбой"
 
@@ -125,7 +125,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `danger`
+### `danger`
 
 !!! danger "Угроза"
 
@@ -133,7 +133,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `bug`
+### `bug`
 
 !!! bug "Ошибка"
 
@@ -141,7 +141,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `example`
+### `example`
 
 !!! example "Пример"
 
@@ -149,7 +149,7 @@
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-#### `quote`
+### `quote`
 
 !!! quote "Цитата"
 
