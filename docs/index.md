@@ -85,3 +85,10 @@ graph LR
 ## Иконки, Эмоджи
 
 [Подробнее](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+
+## Изображения
+
+![Image title](https://dummyimage.com/300x200/f5f5f5/aaaaaa#only-light)
+![Image title](https://dummyimage.com/300x200/21222c/d5d7e2#only-dark)
+
+[Подробнее](elements/images.md)
