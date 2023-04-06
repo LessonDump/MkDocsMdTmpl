@@ -72,6 +72,11 @@ markdown_extensions:
   - tables
   - attr_list
   - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 
 plugins:
@@ -116,3 +121,4 @@ nav:
     - elements/data-tables.md
     - elements/diagrams.md
     - elements/footnotes.md
+    - elements/formatting.md

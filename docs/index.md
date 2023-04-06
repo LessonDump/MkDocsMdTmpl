@@ -75,3 +75,9 @@ graph LR
 ## Сноски
 
 [Подробнее](elements/footnotes.md)
+
+## Форматирование
+
+++ctrl+alt+del++
+
+[Подробнее](elements/formatting.md)
