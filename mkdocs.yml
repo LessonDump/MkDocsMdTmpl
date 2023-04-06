@@ -93,6 +93,7 @@ plugins:
         - en
 
 extra:
+  homepage: index.html
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/OldCodersClub
