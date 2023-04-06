@@ -115,9 +115,9 @@ repo_url: https://github.com/LessonDump/MkDocsMdTmpl
 nav:
   - 'Главная':
     - index.md
-    - about.md
-    - community.md
-    - license.md
+    - home/about.md
+    - home/community.md
+    - home/license.md
 
   - 'Элементы':
     - elements/reference.md
