@@ -64,6 +64,10 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
   - pymdownx.inlinehilite
   - pymdownx.snippets
 
@@ -124,3 +128,4 @@ nav:
     - elements/footnotes.md
     - elements/formatting.md
     - elements/images.md
+    - elements/lists.md

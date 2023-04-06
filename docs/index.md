@@ -92,3 +92,14 @@ graph LR
 ![Image title](https://dummyimage.com/300x200/21222c/d5d7e2#only-dark)
 
 [Подробнее](elements/images.md)
+
+## Списки
+
+- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
+
+[Подробнее](elements/lists.md)
