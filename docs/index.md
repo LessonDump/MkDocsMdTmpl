@@ -81,3 +81,7 @@ graph LR
 ++ctrl+alt+del++
 
 [Подробнее](elements/formatting.md)
+
+## Иконки, Эмоджи
+
+[Подробнее](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
