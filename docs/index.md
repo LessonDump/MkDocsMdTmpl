@@ -71,3 +71,7 @@ graph LR
 ```
 
 [Подробнее](elements/diagrams.md)
+
+## Сноски
+
+[Подробнее](elements/footnotes.md)
